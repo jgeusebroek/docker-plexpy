@@ -1,4 +1,4 @@
-FROM gliderlabs/alpine:3.3
+FROM alpine:latest
 MAINTAINER Jeroen Geusebroek <me@jeroengeusebroek.nl>
 
 ENV APK_ADD="sudo git python" \
