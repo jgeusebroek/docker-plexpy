@@ -1,8 +1,8 @@
 FROM alpine:latest
 MAINTAINER Jeroen Geusebroek <me@jeroengeusebroek.nl>
 
-ENV APK_ADD="sudo git python" \
-    REFRESHED_AT='2017-01-02'
+ENV APK_ADD="sudo git python2 py-setuptools" \
+    REFRESHED_AT='2018-08-16'
 
 RUN apk add --no-cache ${APK_ADD} && \
 
